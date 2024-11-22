@@ -5,12 +5,12 @@
       "branch": "12.1",
       "device": "davinci"
     },
-    "withKernelSU": no,
+    "withKernelSU": false,
     "toolchains": [
       {
         "repo": "https://github.com/kdrag0n/proton-clang",
         "branch": "master",
-        "name": "proton-clang""
+        "name": "proton-clang"
       }
     ],
     "params": {
