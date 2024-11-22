@@ -1,21 +1,16 @@
 [  {
     "kernelSource": {
-      "name": "miku-KernelSU",
-      "repo": "https://github.com/PhamtomK12/kernel_xiaomi_odin",
-      "branch": "TDA",
-      "device": "odin"
+      "name": "davinci-kernel",
+      "repo": "https://github.com/westruk/Infinity_mod",
+      "branch": "12.1",
+      "device": "davinci"
     },
-    "withKernelSU": true,
+    "withKernelSU": no,
     "toolchains": [
       {
-        "repo": "https://android.googlesource.com/platform/prebuilts/gas/linux-x86",
+        "repo": "https://github.com/kdrag0n/proton-clang",
         "branch": "master",
-        "name": "gas"
-      },
-      {
-        "repo": "https://gitlab.com/ThankYouMario/android_prebuilts_clang-standalone/",
-        "branch": "11",
-        "name": "clang"
+        "name": "proton-clang""
       }
     ],
     "params": {
